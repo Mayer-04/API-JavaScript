@@ -1,0 +1,24 @@
+{
+  "name": "api-productos",
+  "version": "1.0.0",
+  "description": "API-rest de productos con metodo CRUD",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Mayer Andres Chaves Prada",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
